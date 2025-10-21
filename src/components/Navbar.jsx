@@ -23,7 +23,7 @@ export default function Navbar(){
                     else{
                         setForcevisible(false)
 
-                    }
+                    }   
                 },{threshold: 0.1}
             )
             if(homeSection) observer.observe(homeSection);
