@@ -33,6 +33,7 @@ export default function OverlayMenu ({isOpen,onClose}) {
                          transition={{delay:0.3 + index *0.1}}
 
                         >
+                           
                            <a href={`#${item.toLowerCase()}`}
                            onClick={onClose}
                            className='text-4xl text-white font-semibold hover:text-pink-400 transition-colors duration-300 '
