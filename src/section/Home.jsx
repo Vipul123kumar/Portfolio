@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import ParticlesBackground from '../components/ParticlesBackground'
+import image from '../assets/imageicon.png';
 
 export default function Home  (){
     const roles=useMemo(()=>["web Developer","Fronted Developer", "Software Enggg"],[])
@@ -33,15 +34,31 @@ export default function Home  (){
            </div>
      </div>
 
-     <div className='relative z-10 h-full w-full max-w-7xl mx-auto px-4 grid-cols-1 lg:grid-cols-2 '>
-          <div className='flex flex-col justify-center text-center lg:text-left relative '>
-               <div className='w-full lg:pr-24 mx-auto max-w-[48rem]'>
-                   {/* <MotionConfig.div>
-                      tt
-                    </MotionConfig.div> */}
-               </div>
-          </div>
-     </div>
+       <div className='flex '>
+             <div className='h-screen '>
+                      <p className='h-3 flex justify-between mx-1 bg-gray-600'>Full-stack Developer</p>
+                       <p className='h-3 flex justify-between mx-1 bg-gray-600'>Full-stack Developer</p>
+                       <h4>Vipul Kumar</h4>
+                       <p>I biild web application</p>
+                       <p>Hello! I'm a Full-Stack Developer from Bhopal,
+                         India. I specialize in building modern web applications using
+                          React.js, Node.js, Express.js, Next.js, and Tailwind CSS.
+                           I enjoy solving complex problems and creating seamless user experiences.
+                        </p>
+                <button>
+                  View Project
+                </button>
+                 
+                 <button className=''>
+                  Contact Me!
+                 </button>
+
+             </div>
+             <div>
+                <img src={image} alt='profile' className='w-80 h-80 '/>
+             </div>
+       </div>
+     
    </section>
   )
 }
