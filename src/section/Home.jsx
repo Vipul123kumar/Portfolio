@@ -34,28 +34,32 @@ export default function Home  (){
            </div>
      </div>
 
-       <div className='flex '>
-             <div className='h-screen '>
-                      <p className='h-3 flex justify-between mx-1 bg-gray-600'>Full-stack Developer</p>
-                       <p className='h-3 flex justify-between mx-1 bg-gray-600'>Full-stack Developer</p>
-                       <h4>Vipul Kumar</h4>
+       <div className='flex h-full  mx-auto justify-center items-center gap-10 '>
+             <div className='h-screen text-white w-1/2 flex flex-col items-start gap-6  mx-9  mt-2 '>
+                      <p className=' flex justify-between  bg-gray-600 border-2 mt-10 p-2 rounded-2xl'>  Full-stack Developer</p>
+                       <p className=' flex justify-between  bg-gray-600 p-2 rounded-2xl border '>Full-stack Developer</p>
+                       <h4 className='text-blue-600 text-7xl font-bold leading-8'> <p className='text-white text-7xl'> Vipul</p> <br/> Kumar</h4>
                        <p>I biild web application</p>
-                       <p>Hello! I'm a Full-Stack Developer from Bhopal,
+                       <p className='text-normal leading-7 text-[20px]'>Hello! I'm a Full-Stack Developer from Bhopal,
                          India. I specialize in building modern web applications using
-                          React.js, Node.js, Express.js, Next.js, and Tailwind CSS.
+                         <span className='text-blue-600'> React.js, Node.js, Express.js, Next.js </span> and  <span className='text-blue-600'> Tailwind CSS.</span>
                            I enjoy solving complex problems and creating seamless user experiences.
                         </p>
-                <button>
+                        <div className='flex gap-10 '>
+                               <button className='  text-white bg-blue-600 p-2 rounded '>
                   View Project
                 </button>
                  
-                 <button className=''>
+                 <button className=' bg-white text-green-500 p-2 rounded '>
                   Contact Me!
                  </button>
 
+                        </div>
+              
+
              </div>
-             <div>
-                <img src={image} alt='profile' className='w-80 h-80 '/>
+             <div className='w-1/2 border flex justify-center items-center '>
+                <img src={image} alt='profile' className='w-100 h-100 rounded-2xl  '/>
              </div>
        </div>
      

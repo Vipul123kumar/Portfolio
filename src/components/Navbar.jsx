@@ -70,8 +70,9 @@ export default function Navbar(){
   <div>
     <ul className="flex space-x-6 text-gray-700 font-medium">
       <li><a href="#home" className="hover:text-teal-600">Home</a></li>
-      <li><a href="#about" className="hover:text-teal-600">About</a></li>
-      <li><a href="#services" className="hover:text-teal-600">Services</a></li>
+      <li><a href="#education" className="hover:text-teal-600">Education</a></li>
+      <li><a href="#skill" className="hover:text-teal-600">Skill</a></li>
+      <li><a href="#project" className="hover:text-teal-600">Project</a></li>
       <li><a href="#contact" className="hover:text-teal-600">Contact</a></li>
     </ul>
   </div>
