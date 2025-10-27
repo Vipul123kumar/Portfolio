@@ -136,13 +136,16 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-        vipl 
+    <div className='h-screen'>
+        projucts
     </div>
   )
 }
 
 export default Projects
+
+
+
 
 
 

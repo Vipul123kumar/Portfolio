@@ -1,17 +1,13 @@
-import Experience from "./section/Experience"
- import './index.css'
-import Projects from "./components/Projects"
 
-import Navbar from "./components/Navbar"
-import Hero from "./components/Home"
-import Home from "./section/Home"
-import About from "./components/About"
-import Skills from "./components/Skills"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import ParticlesBackground from "./components/ParticlesBackground"
-import CustomCursor from "./components/CustomCursor"
-import Education from "./components/Education"
+ import './index.css';
+  import Home from "./section/Home";
+
+import Navbar from "./components/Navbar";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";  
 export default function App() {
   
 
@@ -23,7 +19,7 @@ export default function App() {
      
       <Skills />
        <Projects/>
-     
+        
       <Contact />
       <Footer />
    </div>
