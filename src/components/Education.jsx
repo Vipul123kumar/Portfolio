@@ -3,6 +3,7 @@ import EducationCart from './EducationCart'
 
 const Education = () => {
   return (
+    
     <div className='min-h-screen bg-gray-800 pb-10 '>
          <h5 className='text-white text-center text-5xl pt-10'>Education Journey!</h5>
          <div className='flex justify-between text-white mt-20 px-20'>
