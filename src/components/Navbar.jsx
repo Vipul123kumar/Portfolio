@@ -65,10 +65,10 @@ export default function Navbar(){
 
   return (
    
-<div className="sticky top-0 bg-white shadow-md flex justify-between items-center px-6 py-3 z-50">
+<div className="sticky top-0 bg-[#030913] shadow-md flex justify-between items-center px-6 py-3 z-50">
   <h5 className="font-bold text-xl">V</h5>
   <div>
-    <ul className="flex space-x-6 text-gray-700 font-medium">
+    <ul className="flex space-x-6 text-white  font-medium">
       <li><a href="#home" className="hover:text-teal-600">Home</a></li>
       <li><a href="#education" className="hover:text-teal-600">Education</a></li>
       <li><a href="#skill" className="hover:text-teal-600">Skill </a></li>
