@@ -180,13 +180,13 @@ const Education = () => {
     },
     {
       side: "left",
-      img: "https://upload.wikimedia.org/wikipedia/en/1/15/Central_Board_of_Secondary_Education_logo.png",
-      collegeName: "CBSE Board",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtEdUvfyxp1-JfmM-m1fTAwQsRLLtuzg8mQ&s",
+      collegeName: "IUM Inter College Patan",
       degree: "Secondary Education (10th)",
       year: "2018 - 2020",
       decript:
-        "Completed secondary education with a focus on computer fundamentals and problem solving.",
-      skils: ["HTML", "Basic Programming", "Communication Skills"],
+        "Completed secondary education with a focus on building fundamentals of core subjects.",
+      skils: ["Physics", "Math", "Communication Skills"],
       collegelink: "https://www.cbse.gov.in/",
     },
     {
