@@ -32,8 +32,8 @@ const Skills = () => {
 
   return (
     <div
-      id="skills"
-      className="min-h-screen bg-[#030913] text-white flex flex-col items-center justify-center py-16"
+      id="Skills"
+      className="w-full min-h-screen bg-[#030913] text-white flex flex-col items-center justify-center py-16"
     >
       {/* Heading */}
       <motion.h2

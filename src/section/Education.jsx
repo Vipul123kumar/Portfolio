@@ -151,7 +151,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import EducationCart from "./EducationCart";
+import EducationCart from "../components/EducationCart";
 import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
@@ -191,8 +191,8 @@ const Education = () => {
     },
     {
       side: "right",
-      img: "https://upload.wikimedia.org/wikipedia/commons/6/65/Computer_icon.svg",
-      collegeName: "Online Learning",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsEUUElPWCmXOWoXcC98EvtZL6b--pDrisCw&s",
+      collegeName: "Sita High School Hariharganj",
       degree: "Self Learning & Certifications",
       year: "2023 - Present",
       decript:
